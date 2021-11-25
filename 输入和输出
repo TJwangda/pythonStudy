@@ -1,0 +1,10 @@
+# 输出%占位符
+name = '韩yi'
+name = input('请输入名字：')
+classPro = '华清池'
+classPro = input('请输入地址：')
+age=5
+age = int(input('请输入年龄：'))
+print('我的名字是%s:来自：【%s】,今年%d岁'%(name,classPro,age))
+print('我的名字是{}:来自：{},今年{}岁'.format(name,classPro,age))
+
